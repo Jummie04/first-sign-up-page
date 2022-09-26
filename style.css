@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,500;1,600;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+input:focus {
+    border: transparent;    
+}
+
+aside{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+}
+main{
+    width: 40%;
+    padding: 80px 80px;
+    background-color:floralwhite
+}
+h1{
+    margin: 1px 0;
+    color: grey;
+}
+
+h1 span {
+    color: black;
+}
+p{
+    font-size: 12px;
+    font-weight: 100;
+}
+form{
+    padding: 50px 0;
+}
+.by{
+    font-size: 600;
+    color: grey;
+}
+.terms{
+    font-weight: 600;
+    color: black;
+}
+.email-password {
+    border: 2px solid gray
+    
+}
+ .input-container{
+     border: 1px solid gray; 
+     display: flex;
+     width: 30vw;
+     flex-direction: column;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.5px; color: black
+    
+}
+.input-container input{
+    border: none;
+}
+
+.input-container:hover {
+    border-left: 3px solid red;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 300;
+}
+.logging-in{
+    margin: 40px 0px;
+}
+.log{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+}
+.up{
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    color:gray;
+    border-color: lightgray;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.show nav {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+}
+
+.show nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
